@@ -4,11 +4,11 @@ node_js:
 
 deploy:
   provider: deis
+  edge:
+    source: loicmahieu/dpl
+    branch: fix/deis/remove-key
   controller: http://deis.188.166.33.72.xip.io/
   username: loic
   password: igloo
   app: test-dpl
   cli_version: 1.10.0
-  edge:
-    source: loicmahieu/dpl
-    branch: fix/deis/remove-key

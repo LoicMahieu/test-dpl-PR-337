@@ -6,7 +6,9 @@ deploy:
   provider: deis
   edge:
     source: loicmahieu/dpl
-    branch: pr337
+    branch: fix/deis/remove-key
+  on:
+    all_branches: all
   controller: http://deis.188.166.33.72.xip.io/
   username: loic
   password: igloo

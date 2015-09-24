@@ -9,6 +9,6 @@ deploy:
   password: igloo
   app: test-dpl
   cli_version: 1.10.0
-  # edge:
-  #   source: LoicMahieu/dpl
-  #   branch: fix/deis/remove-key
+  edge:
+    source: loicmahieu/dpl
+    branch: fix/deis/remove-key

@@ -6,8 +6,7 @@ deploy:
   provider: deis
   controller: http://deis.188.166.33.72.xip.io/
   username: loic
-  password:
-    secure: "FLmIHv+svLdcuvztUKPf0SEee8afRD8AY0mu60LBKYWJPh7l83BwtsjMBHGwoXAF61hJmR6y5ZDtKG5FWCkevFKkN9RiNpFhIPFvMrKAgqqqQGrE45aQIa2HSqUiHpqcXOpdTAIbhGyhUpymR9NxZoC0hOMxwyo022bBO0zwjczP8Fw4/HXr6bTQSY9CQmLO/lzMUaDWfUKh7on23kKG6xzZzocFq+WzT+y1E6z0DSgmT//IRWvAGsQj9B0ldjXwEDvPzjMQHVn6SChsnAaTprTkXhpZXuga7/D4wFEkkHO513VoLy8qaCaelMCET6nENc9XYUAicCFkhc6IHeDdfh2PkvhB2AEY49ayhLq6JgzVpE0mAkbTQAh9sSDG7pFASe0rVhY1RyKtNzL70AiQM7bUSGDIceGXfHjROINU4foTIwg/DrxuN3KhfgOCiQmkG1tPG4aquGmCKV+Vi2uK6nBtZz0O+Pyg4sxhNSJid3Q+UA6m7KQo95YpBnehzRfs0cRXyEY4TC65nmYLMBso6LRt/77qqvL+U20CO1LYxjKg6wqKm4qd02zNYkNB69Favtg9qSqlKGTd/VhIJVfGWY5zI4RIouxX3T1OiJzVlOxweZXv+BnN9plbU2antJzBw/Qi5Drp6/RQfr8Sqtn7853QTG98pFzl9bHtkQ6y+gM="
+  password: igloo
   app: test-dpl
   cli_version: 1.10.0
   # edge:
